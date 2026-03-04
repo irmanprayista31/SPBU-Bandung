@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SPBU Bandung | Map</title>
+		<!-- Menyertakan Tailwind CSS menggunakan script -->
+		<script src="https://cdn.tailwindcss.com"></script>
+
+		<!-- Menyertakan CSS untuk Leaflet.js (peta) -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		
+		<!-- Menyertakan JavaScript untuk Leaflet.js (peta interaktif) -->
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+		
+		<!-- Menyertakan favicon untuk halaman -->
+		<link rel="icon" href="assets/logo.ico">
+		
+		<!-- Tailwind CSS Config dark mode and white mode-->
+		<script src="js/tailwind.config.js"></script>
+
+		<!-- Icon White Mode dan Dark Mode -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- Header dengan logo dan navigasi -->
+		<header class="bg-white dark:bg-slate-700 body-font fixed top-0 w-full z-10 shadow-md duration-200 ease-in-out">
+			<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
+				<a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+					<img src="assets/logo.png" alt="Ikon" class="w-11 h-11 p-2 rounded-full">
+					<span class="ml-3 text-xl text-gray-900 dark:text-slate-300 duration-200 ease-in-out" style="font-size: 30px; font-weight: bold;">
+						SPBU Bandung
+					</span>
+				</a>
+				<nav class="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-4">
+					<a href="index.html" class="mr-5 text-gray-600 hover:text-gray-900 dark:text-slate-300 hover:text-orange-500 duration-200 ease-in-out">Beranda</a>
+					<a href="map.html" class="mr-5 text-gray-600 hover:text-gray-900 dark:text-slate-300 hover:text-orange-500 duration-200 ease-in-out">Map</a>
+					<a>
+						<button class="mr-5 ml-5 text-gray-600 dark:text-slate-300 hover:text-orange-500 duration-200 ease-in-out" onclick="centerToBandung()">
+							<span>Pusatkan ke Bandung</span>
+						</button>
+					</a>
+				</nav>
+				<div class="flex items-center space-x-4">
+					<div class="h-6 border-l border-gray-300 dark:border-slate-500 duration-200 ease-in-out"></div>
+					<label for="theme-toggle" class="flex items-center cursor-pointer">
+						<div class="relative">
+							<input type="checkbox" id="theme-toggle" class="hidden" onchange="toggleTheme()" />
+							<div class="w-14 h-7 bg-gray-200 dark:bg-slate-500 rounded-full p-1 duration-200 ease-in-out"></div>
+							<div class="w-5 h-5 bg-white dark:bg-slate-700 rounded-full absolute top-1 left-1 duration-300 ease-in-out transform dark:translate-x-7 flex items-center justify-center">
+								<i id="theme-icon" class="fas fa-sun text-yellow-500 dark:hidden"></i> 
+								<i id="theme-icon-dark" class="fas fa-moon text-gray-300 hidden dark:block"></i> 
+							</div>
+						</div>
+					</label>
+				</div>
+			</div>
+		</header>
+		
+		<!-- Tombol Jenis Peta, Pencarian, dan Filter SPBU -->
+		<section>
+			<div class="absolute inset-0 z-0">
+				<div id="map" class="w-full h-screen"></div>
+			</div>
+			<div class="container px-5 py-24 mx-auto flex flex-col items-center" style="padding-top: 103px;">
+				<div class="flex items-start w-full space-x-4 justify-end">
+					<div class="bg-white dark:bg-slate-800 rounded-lg px-4 py-2 z-10 shadow-md duration-200 ease-in-out h-full">
+						<div class="layer-controls">
+							<h2 class="text-gray-600 dark:text-slate-300 mb-2 duration-200 ease-in-out text-center font-semibold">Jenis Peta</h2>
+							<button id="set-default-layer" class="text-gray-600 bg-gray-200 dark:bg-slate-600 dark:text-slate-300 py-1 px-2 text-sm hover:text-white hover:bg-orange-500 rounded mb-2 mr-1">
+								Default
+							</button>
+							<button id="set-satellite-layer" class="text-gray-600 bg-gray-200 dark:bg-slate-600 dark:text-slate-300 py-1 px-2 text-sm hover:text-white hover:bg-orange-500 rounded mb-2">
+								Satelit
+							</button>
+						</div>
+					</div>
+					<div class="bg-white dark:bg-slate-800 lg:w-1/4 md:w-1/2 rounded-lg p-4 flex flex-col relative z-10 shadow-md mb-4 duration-200 ease-in-out w-2/4">
+						<div class="flex items-center w-full space-x-2">
+							<input type="text" id="search-input" class="flex-1 bg-gray-100 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-400 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors" placeholder="Cari SPBU di Bandung">
+							<button id="search-button" class="border-0 py-2 px-3 text-sm mb-2">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5 text-black dark:text-slate-400 hover:text-orange-500 transition-colors duration-200 ease-in-out">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a7 7 0 100 14 7 7 0 000-14zM21 21l-4.35-4.35"></path>
+								</svg>
+							</button>
+						</div>
+						<p class="text-xs text-gray-500 dark:text-slate-400 mt-3">Masukkan nama SPBU, alamat, latitude, atau longitude.</p>
+					</div>
+				</div>
+				<div class="flex justify-end items-start w-full space-x-4">
+					<div class="lg:w-1/6 md:w-1/4 bg-white dark:bg-slate-800 rounded-lg p-4 flex flex-col relative z-10 shadow-md duration-200 ease-in-out w-1/4">
+						<h2 class="text-gray-600 dark:text-slate-300 mb-2 duration-200 ease-in-out text-center font-semibold">Filter SPBU Bandung</h2>
+						<button id="filter-pertamina" class="text-gray-600 bg-gray-200 hover:text-white hover:bg-red-500 dark:bg-slate-600 dark:text-slate-300 py-1 px-2 text-sm rounded mb-2">
+							Pertamina
+						</button>
+						<button id="filter-shell" class="text-gray-600 bg-gray-200 hover:text-white hover:bg-yellow-500 dark:bg-slate-600 dark:text-slate-300 py-1 px-2 text-sm rounded mb-2">
+							Shell
+						</button>
+						<button id="filter-vivo" class="text-gray-600 bg-gray-200 hover:text-white hover:bg-blue-800 dark:bg-slate-600 dark:text-slate-300 py-1 px-2 text-sm rounded mb-2">
+							Vivo
+						</button>
+						<button id="filter-bp" class="text-gray-600 bg-gray-200 hover:text-white hover:bg-green-600 dark:bg-slate-600 dark:text-slate-300 py-1 px-2 text-sm rounded mb-2">
+							BP
+						</button>
+						<button id="show-all-markers" class="text-gray-600 bg-gray-200 hover:text-white hover:bg-orange-500 dark:bg-slate-600 dark:text-slate-300 py-1 px-2 text-sm rounded mb-2">
+							Semua
+						</button>
+						<button id="clear-markers" class="text-gray-600 dark:text-white items-center py-1 px-2 hover:text-orange-500 transition-colors duration-200 ease-in-out rounded mt-4 md:mt-0">
+							Bersihkan Marker
+						</button>
+						<p class="text-xs text-gray-500 dark:text-slate-400 mt-3">Cari SPBU Bandung berdasarkan filter yang tersedia.</p>
+					</div>
+				</div>				
+			</div>
+		</section>					
+		<div id="popup-box" style="display: none; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.8); color: white; border-radius: 5px;">
+			SPBU tidak ditemukan
+		</div>		
+		<script type="module" src="js/map.js"></script>
+	</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SPBU Bandung | Beranda</title>
+
+		<!-- Menambahkan favicon untuk tab browser -->
+		<link rel="icon" href="assets/logo.ico">
+
+		<!-- Menyertakan Tailwind CSS menggunakan script -->
+		<script src="https://cdn.tailwindcss.com"></script>
+
+		<!-- Pustaka Chart -->
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		
+		<!-- Tailwind CSS Config dark mode and white mode-->
+		<script src="js/tailwind.config.js"></script>
+
+		<!-- Icon White Mode dan Dark Mode -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	</head>
+
+	<body onload="initialize()" class="bg-white dark:bg-slate-800 duration-200 ease-in-out">
+		<!-- Header dengan logo dan navigasi -->
+		<header class="bg-white dark:bg-slate-700 body-font fixed top-0 w-full z-10 shadow-md duration-200 ease-in-out">
+			<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
+				<a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+					<img src="assets/logo.png" alt="Ikon" class="w-11 h-11 p-2 rounded-full">
+					<span class="ml-3 text-xl text-gray-900 dark:text-slate-300 duration-200 ease-in-out" style="font-size: 30px; font-weight: bold;">
+						SPBU Bandung
+					</span>
+				</a>
+				<nav class="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-4">
+					<a href="index.html" class="mr-5 text-gray-600 hover:text-gray-900 dark:text-slate-300 hover:text-orange-500 duration-200 ease-in-out">Beranda</a>
+					<a href="map.html" class="mr-5 text-gray-600 hover:text-gray-900 dark:text-slate-300 hover:text-orange-500 duration-200 ease-in-out">Map</a>
+					<button class="text-gray-600 hover:text-gray-900 dark:text-slate-300 hover:text-orange-500 duration-200 ease-in-out" onclick="scrollToChart()">
+						<span class="pl-5">Diagram Lingkaran</span>
+					</button>
+					<button class="text-gray-600 hover:text-gray-900 dark:text-slate-300 hover:text-orange-500 duration-200 ease-in-out" onclick="scrollToBarChart()">
+						<span class="pl-5 pr-5">Diagram Bar</span>
+					</button>
+				</nav>
+				<div class="flex items-center space-x-4">
+					<div class="h-6 border-l border-gray-300 dark:border-slate-500 duration-200 ease-in-out"></div>
+					<label for="theme-toggle" class="flex items-center cursor-pointer">
+						<div class="relative">
+							<input type="checkbox" id="theme-toggle" class="hidden" onchange="toggleTheme()" />
+							<div class="w-14 h-7 bg-gray-200 dark:bg-slate-500 rounded-full p-1 duration-200 ease-in-out"></div>
+							<div class="w-5 h-5 bg-white dark:bg-slate-700 rounded-full absolute top-1 left-1 duration-300 ease-in-out transform dark:translate-x-7 flex items-center justify-center">
+								<i id="theme-icon" class="fas fa-sun text-yellow-500 dark:hidden"></i> 
+								<i id="theme-icon-dark" class="fas fa-moon text-gray-300 hidden dark:block"></i> 
+							</div>
+						</div>
+					</label>
+				</div>
+			</div>
+		</header>
+
+		<!-- Section utama yang menyambut pengunjung -->
+		<section class="text-gray-600 body-font pt-32 md:pt-0 mt-24">
+			<div class="container mx-auto flex px-10 py-24 md:flex-row flex-col items-center">
+				<div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+					<h1 class="text-gray-900 dark:text-slate-300 title-font sm:text-4xl text-3xl mb-4 font-bold duration-200 ease-in-out">
+						Selamat Datang di Peta SPBU Bandung!
+					</h1>	
+					<p class="text-gray-600 dark:text-slate-400 mb-8 leading-relaxed duration-200 ease-in-out">Temukan SPBU Terdekat dan Jelajahi SPBU di Bandung dengan Mudah! Seperti Pertamina, Shell, dan Vivo dalam Satu Peta! Dengan teknologi peta interaktif kami, Anda dapat dengan mudah mencari dan menemukan SPBU dari berbagai merek ternama seperti Pertamina, Shell, dan Vivo yang tersebar di seluruh wilayah Bandung yang akan membuat perjalanan Anda lebih hemat waktu dan tenaga.</p>
+					<div class="flex justify-center">
+						<a class="inline-flex text-white bg-orange-400 border-0 py-2 px-6 focus:outline-none hover:bg-orange-500 rounded text-lg" href="map.html">Yuk Cari SPBU di Bandung!</a>
+					</div>
+				</div>
+				<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+					<img class="object-cover object-center rounded w-3/4" alt="hero" src="assets/logo.png">
+				</div>
+			</div>
+		</section>
+
+		<!-- Developer -->
+		<section class="body-font">
+			<div class="container px-5 py-5 mx-auto">
+				<div class="flex flex-col text-center w-full mb-20">
+					<h1 class="text-gray-900 dark:text-slate-300 text-2xl font-bold mb-4 duration-200 ease-in-out">Tim Kami</h1>
+					<p class="text-gray-600 dark:text-slate-400 lg:w-2/3 mx-auto leading-relaxed text-base duration-200 ease-in-out">Kami adalah tim yang bertugas untuk mengembangkan solusi peta SPBU interaktif yang dapat memudahkan pengguna dalam menemukan lokasi SPBU terdekat dengan akurasi dan kemudahan pencarian.</p>
+				</div>
+				<div class="flex flex-wrap -m-4 justify-center">
+					<div class="p-4 lg:w-1/4 md:w-1/2">
+						<div class="h-full flex flex-col items-center text-center">
+							<img alt="team" class="flex-shrink-0 rounded-lg w-full h-50% object-cover object-center mb-4" src="images/irman.jpg">
+							<div class="w-full">
+								<h2 class="text-gray-900 dark:text-slate-300 title-font font-semibold text-lg duration-200 ease-in-out">Irman Prayista</h2>
+								<h3 class="text-gray-400 dark:text-slate-300 mb-3 duration-200 ease-in-out">Front-End Developer</h3>
+								<span class="inline-block h-1 w-10 rounded bg-orange-400 mt-4 mb-4"></span>
+								<p class="text-gray-600 dark:text-slate-400 mb-4 duration-200 ease-in-out">Front-end Developer bertugas menciptakan tampilan dan interaksi yang nyaman bagi pengguna dengan memanfaatkan HTML untuk struktur, CSS untuk desain, dan JavaScript untuk interaktivitas. Platform utama yang digunakan dalam proyek ini termasuk HTML, Tailwind CSS, dan alat pengembangan seperti VS Code.</p>
+							</div>
+						</div>
+					</div>
+					<div class="p-4 lg:w-1/4 md:w-1/2">
+						<div class="h-full flex flex-col items-center text-center">
+							<img alt="team" class="flex-shrink-0 rounded-lg w-full h-50% object-cover object-center mb-4" src="images/faiz.jpg">
+							<div class="w-full">
+								<h2 class="text-gray-900 dark:text-slate-300 title-font font-semibold text-lg duration-200 ease-in-out">Faiz Hibatullah</h2>
+								<h3 class="text-gray-400 dark:text-slate-300 mb-3 duration-200 ease-in-out">Back-End Developer</h3>
+								<span class="inline-block h-1 w-10 rounded bg-orange-400 mt-4 mb-4"></span>
+								<p class="text-gray-600 dark:text-slate-400 mb-4 duration-200 ease-in-out">Back-End Developer bertugas untuk menyimpan, mengambil, dan mengelola data terkait SPBU yang mencakup informasi seperti nama SPBU, alamat, latitude, dan longitude dalam Firebase Realtime Database secara real-time. </p>
+							</div>
+						</div>
+					</div>
+					<div class="p-4 lg:w-1/4 md:w-1/2">
+						<div class="h-full flex flex-col items-center text-center">
+							<img alt="team" class="flex-shrink-0 rounded-lg w-full h-50% object-cover object-center mb-4" src="images/arya.jpg">
+							<div class="w-full">
+								<h2 class="text-gray-900 dark:text-slate-300 title-font font-semibold text-lg duration-200 ease-in-out">Muhammad Fadhil Nararya Basuki</h2>
+								<h3 class="text-gray-400 dark:text-slate-300 text-gray-500 mb-3 duration-200 ease-in-out">Data Integration Developer</h3>
+								<span class="inline-block h-1 w-10 rounded bg-orange-400 mt-4 mb-4"></span>
+								<p class="text-gray-600 dark:text-slate-400 mb-4 duration-200 ease-in-out">Data Integration Developer bertugas mencari, mengumpulkan, dan mengintegrasikan sumber data seperti nama SPBU, longitude, latitude, dan alamat, memastikan data yang dikumpulkan akurat, konsisten, dan dapat digunakan oleh tim pengembang atau aplikasi. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	  
+
+		<!-- Informasi tentang masing-masing SPBU -->
+		<section class="body-font">
+			<div class="container px-16 py-16 mx-auto">
+				<div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+					<div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+						<div class="rounded-lg h-64 overflow-hidden" style="display: flex; justify-content: center; align-items: center; height: 300px;">
+							<img alt="Pertamina" class="object-cover object-center h-full w-full" src="assets/pertamina-icon-noshadow.png" style="width: 350px; height: auto;">
+						</div>
+						<h2 class="text-xl font-bold title-font text-gray-900 dark:text-slate-300 mt-5 text-center duration-200 ease-in-out">Pertamina</h2>
+						<p class="text-gray-600 dark:text-slate-400 text-base leading-relaxed mt-2 text-center duration-200 ease-in-out">Perusahaan energi terbesar di Indonesia yang menyediakan berbagai produk bahan bakar, gas, dan energi terbarukan. Sebagai perusahaan milik negara, Pertamina berkomitmen untuk memenuhi kebutuhan energi masyarakat Indonesia dengan produk berkualitas dan layanan yang andal, serta mendukung pembangunan berkelanjutan di seluruh negeri.</p>
+					</div>
+					<div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+						<div class="rounded-lg h-64 overflow-hidden" style="display: flex; justify-content: center; align-items: center; height: 300px;">
+							<img alt="Shell" class="object-cover object-center h-full w-full" src="assets/shell-icon-noshadow.png" style="width: 280px; height: auto;">
+						</div>
+						<h2 class="text-xl font-bold title-font text-gray-900 dark:text-slate-300 mt-5 text-center duration-200 ease-in-out">Shell</h2>
+						<p class="text-gray-600 dark:text-slate-400 text-base leading-relaxed mt-2 text-center duration-200 ease-in-out">Perusahaan energi global yang menyediakan berbagai produk energi, termasuk bahan bakar kendaraan, pelumas, dan gas alam. Dengan komitmen pada inovasi dan keberlanjutan, Shell berusaha untuk menyediakan solusi energi yang lebih bersih dan efisien, serta berperan aktif dalam mengurangi dampak lingkungan melalui teknologi ramah lingkungan di berbagai sektor industri.</p>
+					</div>
+					<div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+						<div class="rounded-lg h-64 overflow-hidden" style="display: flex; justify-content: center; align-items: center; height: 300px;">
+							<img alt="Vivo" class="object-cover object-center h-full w-full" src="assets/vivo-icon-noshadow.png" style="width: 250px; height: auto;">
+						</div>
+						<h2 class="text-xl font-bold title-font text-gray-900 dark:text-slate-300 mt-5 text-center duration-200 ease-in-out">Vivo</h2>
+						<p class="text-gray-600 dark:text-slate-400 text-base leading-relaxed mt-2 text-center duration-200 ease-in-out">Perusahaan ini menyediakan bahan bakar berkualitas tinggi, pelumas, dan produk energi lainnya, dengan fokus pada pelayanan pelanggan yang unggul dan keberlanjutan. Vivo Energy berkomitmen untuk mendukung mobilitas masyarakat Indonesia dengan produk yang efisien dan ramah lingkungan.</p>
+					</div>
+					<div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+						<div class="rounded-lg h-64 overflow-hidden" style="display: flex; justify-content: center; align-items: center; height: 300px;">
+							<img alt="BP" class="object-cover object-center h-full w-full" src="assets/bp-icon-noshadow.png" style="width: 250px; height: auto;">
+						</div>
+						<h2 class="text-xl font-bold title-font text-gray-900 dark:text-slate-300 mt-5 text-center duration-200 ease-in-out">BP</h2>
+						<p class="text-gray-600 dark:text-slate-400 text-base leading-relaxed mt-2 text-center duration-200 ease-in-out">Perusahaan ini berfokus pada inovasi dalam pengembangan energi terbarukan dan solusi energi bersih. Dengan pendekatan yang berorientasi pada keberlanjutan, BP berinvestasi dalam teknologi terbaru untuk memimpin transisi dunia menuju energi yang lebih ramah lingkungan. Sebagai salah satu pemain utama di industri energi, BP berkomitmen untuk memberikan kontribusi positif terhadap keberlanjutan dan perubahan iklim global.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Grafik Pie -->
+		<div id="pieChartSection" class="max-w-7xl mx-auto px-4 py-8">
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+				<div class="flex justify-center items-center dark:bg-slate-300 rounded-md p-5 duration-200 ease-in-out">
+					<canvas id="pieChart" width="300" height="300" style="max-width: 550px; max-height: 550px;"></canvas>
+				</div>								
+				<div class="flex flex-col justify-center items-start space-y-4">
+					<h5 class="text-2xl font-bold text-gray-900 dark:text-slate-300 duration-200 ease-in-out">Jumlah SPBU Bandung</h5>
+					<ul class="list-disc ml-5 text-gray-600">
+						<li class="text-gray-600 dark:text-slate-400 duration-200 ease-in-out"><strong class="font-semibold text-red-500">Pertamina</strong> memiliki jumlah lebih banyak dengan persentase sebesar <strong>90,71%</strong></li>
+						<li class="text-gray-600 dark:text-slate-400 duration-200 ease-in-out"><strong class="font-semibold text-yellow-500">Shell</strong> terdapat beberapa di Bandung dengan persentase sebesar <strong>7,86%</strong></li>
+						<li class="text-gray-600 dark:text-slate-400 duration-200 ease-in-out"><strong class="font-semibold text-blue-500">Vivo</strong> dan <strong class="font-semibold text-green-500"> BP </strong> sangat jarang ditemukan di Bandung dan masing - masing hanya memiliki <strong>0,71%</strong></li>
+					</ul>
+					<p class="text-gray-600 dark:text-slate-300 duration-200 ease-in-out">
+						Analisis ini menunjukkan jumlah SPBU Pertamina yang sangat tinggi dan Vivo serta BP memiliki peran yang sangat kecil.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Grafik Bar -->
+		<div id="barChartSection" class="max-w-7xl mx-auto py-8 mb-10">
+			<div class="flex flex-col justify-center items-center space-y-8 ">
+				<div class="flex justify-center items-center w-full dark:bg-slate-300 rounded-md duration-200 ease-in-out">
+					<canvas id="barChart" class="w-full h-auto" style="max-width: 100%;"></canvas>
+				</div>
+				<div class="flex flex-col justify-center items-center text-center space-y-4 w-full sm:w-3/4 lg:w-2/3">
+					<div class="container mx-auto p-6">
+						<h1 class="text-2xl font-bold text-gray-800 dark:text-slate-300 mb-4 duration-200 ease-in-out">Jumlah SPBU Bandung Berdasarkan Kecamatan</h1>
+						<div class="bg-white dark:bg-slate-700 p-4 shadow-md rounded-md duration-200 ease-in-out">
+							<ul class="list-disc pl-5 space-y-2 text-gray-600 dark:text-slate-300 duration-200 ease-in-out">
+								<span class="font-semibold text-red-500">Pertamina</span> mendominasi di beberapa kecamatan dengan jumlah SPBU terbanyak.
+								<span class="font-semibold text-yellow-500">Shell</span> terbatas dan terdapat di beberapa kecamatan seperti Sukajadi dan Lembang.
+								<span class="font-semibold text-blue-500">Vivo</span> jarang ditemukan dan terdapat di kecamatan Coblong.
+								<span class="font-semibold text-green-500">BP </span> sangat jarang ditemukan dan terdapat di kecamatan Sukajadi.
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/graphic.js"></script>
+		
+		<!-- Footer -->
+		<footer class="text-gray-400 py-16" style="background-color: orange;">
+			<div class="container mx-auto flex flex-col md:flex-row justify-between items-center md:items-start">
+				<div class="footer-left w-full md:w-1/3 mb-6 md:mb-0" style="margin-left: 50px;">
+					<h4 class="text-xl font-semibold text-gray-900" style="font-weight: bold; font-size: 25px;">Tentang Kami</h4>
+					<p class="mt-2" style="color: #3a3a3a; font-size: 15px;">SPBU Bandung berkomitmen untuk menyediakan peta SPBU di Bandung yang akurat dan lengkap.</p>
+				</div>
+				<div class="footer-right w-full md:w-1/3 text-center md:text-left">
+					<h4 class="text-xl font-semibold text-gray-900" style="font-weight: bold; font-size: 25px;">Follow Kami</h4>
+					<div class="social-icons flex justify-center md:justify-start space-x-4 mt-4">
+						<a href="https://www.facebook.com/?locale=id_ID&refsrc=deprecated&_rdr">
+							<img src="assets/facebook-icon.png" alt="Facebook" class="w-8 h-8">
+						</a>
+						<a href="https://x.com/i/flow/login">
+							<img src="assets/twitter-icon.png" alt="Twitter" class="w-8 h-8">
+						</a>
+						<a href="https://www.instagram.com/accounts/login/">
+							<img src="assets/instagram-icon.png" alt="Instagram" class="w-8 h-8">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="mt-6 text-center">
+				<p class="text-sm" style="color: #000000;">&copy; 2024 SPBU Bandung. All rights reserved.</p>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,1130 @@
+{
+  "bp": [
+    {
+      "alamat": "Jl. Dr. Djunjunan, Sukabungah, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162",
+      "id": 1,
+      "latitude": -6.94741,
+      "longitude": 107.63255,
+      "nama_spbu": "BP Buah Batu",
+      "no": 1
+    }
+  ],
+  "pertamina": [
+    {
+      "alamat": "Jl. Moch. Toha, Dayeuhkolot, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40258",
+      "id": 1,
+      "latitude": -6.98299,
+      "longitude": 107.62089,
+      "nama_spbu": "PERTAMINA 3440222",
+      "no": 1
+    },
+    {
+      "alamat": "Jl. Raya Kopo, Bandung Selatan, Margahayu, Kec. Margahayu, Kabupaten Bandung, Jawa Barat 40226",
+      "id": 2,
+      "latitude": -6.97515,
+      "longitude": 107.57118,
+      "nama_spbu": "PERTAMINA 3440223",
+      "no": 2
+    },
+    {
+      "alamat": "Jl. Lagadar, Kec. Margaasih, Kabupaten Bandung, Jawa Barat 40216",
+      "id": 3,
+      "latitude": -6.92401,
+      "longitude": 107.54066,
+      "nama_spbu": "PERTAMINA 3440224",
+      "no": 3
+    },
+    {
+      "alamat": "Jl. Moch. Toha No.33, Pasawahan, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40256",
+      "id": 4,
+      "latitude": -6.96366,
+      "longitude": 107.61437,
+      "nama_spbu": "PERTAMINA 3440240",
+      "no": 4
+    },
+    {
+      "alamat": "Jl. Taman Kopo Indah No.3, Rahayu, Kec. Margaasih, Kabupaten Bandung, Jawa Barat 40218",
+      "id": 5,
+      "latitude": -6.96179,
+      "longitude": 107.55838,
+      "nama_spbu": "PERTAMINA 3440245",
+      "no": 5
+    },
+    {
+      "alamat": "Jl. Raya Sayuran Gg.Bp entoy, Cangkuang Kulon, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40239",
+      "id": 6,
+      "latitude": -6.97489,
+      "longitude": 107.59063,
+      "nama_spbu": "PERTAMINA 3440246",
+      "no": 6
+    },
+    {
+      "alamat": "Jl. Kopo Bihbul Raya, Sayati, Kec. Margahayu, Kabupaten Bandung, Jawa Barat 40228",
+      "id": 7,
+      "latitude": -6.96586,
+      "longitude": 107.57569,
+      "nama_spbu": "PERTAMINA 3440252",
+      "no": 7
+    },
+    {
+      "alamat": "Jl. Raya Bojongsoang Raya No.261, Lengkong, Kec. Bojongsoang, Kabupaten Bandung, Jawa Barat 40287",
+      "id": 8,
+      "latitude": -6.97103,
+      "longitude": 107.63635,
+      "nama_spbu": "PERTAMINA 3440261",
+      "no": 8
+    },
+    {
+      "alamat": "Jl. Raya Bandung - Garut No.20, Citaman, Kec. Nagreg, Kabupaten Bandung, Jawa Barat 40215",
+      "id": 9,
+      "latitude": -7.01529,
+      "longitude": 107.87889,
+      "nama_spbu": "PERTAMINA 3440301",
+      "no": 9
+    },
+    {
+      "alamat": "Jl. Raya Cirebon - Bandung No.189, Cimekar, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40623",
+      "id": 10,
+      "latitude": -6.93868,
+      "longitude": 107.73452,
+      "nama_spbu": "PERTAMINA 3440302",
+      "no": 10
+    },
+    {
+      "alamat": "Jl. Bojongloa, Kec. Rancaekek, Kabupaten Bandung, Jawa Barat 40394",
+      "id": 11,
+      "latitude": -6.95432,
+      "longitude": 107.76859,
+      "nama_spbu": "PERTAMINA 3440303",
+      "no": 11
+    },
+    {
+      "alamat": "Jl. Raya Laswi No.727, Kec. Ciparay, Kabupaten Bandung, Jawa Barat 40381",
+      "id": 12,
+      "latitude": -7.03599,
+      "longitude": 107.71624,
+      "nama_spbu": "PERTAMINA 3440304",
+      "no": 12
+    },
+    {
+      "alamat": "Jl. Laswi Raya No.219, Manggahang, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375",
+      "id": 13,
+      "latitude": -7.01922,
+      "longitude": 107.65426,
+      "nama_spbu": "PERTAMINA 3440305",
+      "no": 13
+    },
+    {
+      "alamat": "Jl. Raya Laswi, Padaulun, Kec. Majalaya, Kabupaten Bandung, Jawa Barat 40382",
+      "id": 14,
+      "latitude": -7.04578,
+      "longitude": 107.73598,
+      "nama_spbu": "PERTAMINA 3440309",
+      "no": 14
+    },
+    {
+      "alamat": "Jl. Raya Cicalengka - Majalaya, Ciluluk, Kec. Cikancung, Kabupaten Bandung, Jawa Barat 40396",
+      "id": 15,
+      "latitude": -7.01402,
+      "longitude": 107.80289,
+      "nama_spbu": "PERTAMINA 3440312",
+      "no": 15
+    },
+    {
+      "alamat": "Jl. Terusan Bojongsoang No.27, Baleendah, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375",
+      "id": 16,
+      "latitude": -6.99496,
+      "longitude": 107.63043,
+      "nama_spbu": "PERTAMINA 3440313",
+      "no": 16
+    },
+    {
+      "alamat": "Jl. Raya Cicalengka Timur No.424, Cicalengka Wetan, Kec. Cicalengka, Kabupaten Bandung, Jawa Barat 40395",
+      "id": 17,
+      "latitude": -6.99197,
+      "longitude": 107.84257,
+      "nama_spbu": "PERTAMINA 3440314",
+      "no": 17
+    },
+    {
+      "alamat": "Jl. Raya Cileunyi Kulon, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40622",
+      "id": 18,
+      "latitude": -6.93958,
+      "longitude": 107.74144,
+      "nama_spbu": "PERTAMINA 3440315",
+      "no": 18
+    },
+    {
+      "alamat": "Jl. Raya Banjaran Barat, Andir, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375",
+      "id": 19,
+      "latitude": -7.00597,
+      "longitude": 107.61498,
+      "nama_spbu": "PERTAMINA 3440316",
+      "no": 19
+    },
+    {
+      "alamat": "Jl. Raya Bandung - Garut No.126, Babakan Peuteuy, Kec. Cicalengka, Kabupaten Bandung, Jawa Barat 40395",
+      "id": 20,
+      "latitude": -6.99474,
+      "longitude": 107.85358,
+      "nama_spbu": "PERTAMINA 3440319",
+      "no": 20
+    },
+    {
+      "alamat": "Jl. Raya Majalaya - Rancaekek No.182, Rancakasumba, Kec. Solokanjeruk, Kabupaten Bandung, Jawa Barat 40382",
+      "id": 21,
+      "latitude": -7.03097,
+      "longitude": 107.75175,
+      "nama_spbu": "PERTAMINA 3440322",
+      "no": 21
+    },
+    {
+      "alamat": "Jl. Raya Barat Cicalengka, Nanjungmekar, Kec. Rancaekek, Kabupaten Bandung, Jawa Barat 40394",
+      "id": 22,
+      "latitude": -6.96874,
+      "longitude": 107.82699,
+      "nama_spbu": "PERTAMINA 3440323",
+      "no": 22
+    },
+    {
+      "alamat": "Jl. Cukanggenteng, Kec. Pasirjambu, Kabupaten Bandung, Jawa Barat 40972",
+      "id": 23,
+      "latitude": -7.07638,
+      "longitude": 107.4871,
+      "nama_spbu": "PERTAMINA 3440324",
+      "no": 23
+    },
+    {
+      "alamat": "Jl. Raya Laswi, Bumiwangi, Kec. Ciparay, Kabupaten Bandung, Jawa Barat 40381",
+      "id": 24,
+      "latitude": -7.02903,
+      "longitude": 107.69713,
+      "nama_spbu": "PERTAMINA 3440325",
+      "no": 24
+    },
+    {
+      "alamat": "Jl. Terusan Bojongsoang, Baleendah, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375",
+      "id": 25,
+      "latitude": -6.99057,
+      "longitude": 107.63211,
+      "nama_spbu": "PERTAMINA 3440326",
+      "no": 25
+    },
+    {
+      "alamat": "Jl. Raya Pacet, Cikoneng, Kec. Ciparay, Kabupaten Bandung, Jawa Barat 40381",
+      "id": 26,
+      "latitude": -7.08417,
+      "longitude": 107.70721,
+      "nama_spbu": "PERTAMINA 3440328",
+      "no": 26
+    },
+    {
+      "alamat": "Jl. Raya Majalaya - Rancaekek, Solokanjeruk, Kec. Solokanjeruk, Kabupaten Bandung, Jawa Barat 40376",
+      "id": 27,
+      "latitude": -6.99796,
+      "longitude": 107.74836,
+      "nama_spbu": "PERTAMINA 3440333",
+      "no": 27
+    },
+    {
+      "alamat": "Jl. Rancaekek, Linggar, Kec. Rancaekek, Kabupaten Bandung, Jawa Barat 40394",
+      "id": 28,
+      "latitude": -6.9603,
+      "longitude": 107.78716,
+      "nama_spbu": "PERTAMINA 3440335",
+      "no": 28
+    },
+    {
+      "alamat": "Jl. Babakan Rancamanyar, Rancamanyar, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375",
+      "id": 29,
+      "latitude": -6.99713,
+      "longitude": 107.59883,
+      "nama_spbu": "PERTAMINA 3440336",
+      "no": 29
+    },
+    {
+      "alamat": "Jl. Raya Pangalengan No.5, Kiangroke, Kec. Banjaran, Kabupaten Bandung, Jawa Barat 40377",
+      "id": 30,
+      "latitude": -7.05681,
+      "longitude": 107.56931,
+      "nama_spbu": "PERTAMINA 3440337",
+      "no": 30
+    },
+    {
+      "alamat": "Jl. Raya Kamasan Banjaran No.280, Kamasan, Kec. Banjaran, Kabupaten Bandung, Jawa Barat 40377",
+      "id": 31,
+      "latitude": -7.04721,
+      "longitude": 107.58167,
+      "nama_spbu": "PERTAMINA 3440338",
+      "no": 31
+    },
+    {
+      "alamat": "Jl. Oma Anggawisastra, Cibeet, Kec. Ibun, Kabupaten Bandung, West Java 40384",
+      "id": 32,
+      "latitude": -7.08873,
+      "longitude": 107.76013,
+      "nama_spbu": "PERTAMINA 3440341",
+      "no": 32
+    },
+    {
+      "alamat": "Jl. Raya Percobaan No.60 A, Cileunyi Kulon, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40623",
+      "id": 33,
+      "latitude": -6.94074,
+      "longitude": 107.74115,
+      "nama_spbu": "PERTAMINA 3440607",
+      "no": 33
+    },
+    {
+      "alamat": "Jl. Raya Ciwidey No.149, Cisondari, Kec. Pasirjambu, Kabupaten Bandung, Jawa Barat 40972",
+      "id": 34,
+      "latitude": -7.08983,
+      "longitude": 107.48013,
+      "nama_spbu": "PERTAMINA 3440902",
+      "no": 34
+    },
+    {
+      "alamat": "Jl. Al-Fathu, Pamekaran, Kec. Soreang, Kabupaten Bandung, Jawa Barat 40912",
+      "id": 35,
+      "latitude": -7.02304,
+      "longitude": 107.53015,
+      "nama_spbu": "PERTAMINA 3440904",
+      "no": 35
+    },
+    {
+      "alamat": "Jl. Terusan Soreang-Cipatik No.7, Mahmud, Gajahmekar, Kec. Kutawaringin, Kabupaten Bandung, Jawa Barat 40911",
+      "id": 36,
+      "latitude": -6.98013,
+      "longitude": 107.53392,
+      "nama_spbu": "PERTAMINA 3440906",
+      "no": 36
+    },
+    {
+      "alamat": "Jl. Jelegong, Kec. Kutawaringin, Kabupaten Bandung, Jawa Barat 40911",
+      "id": 37,
+      "latitude": -6.95057,
+      "longitude": 107.52626,
+      "nama_spbu": "PERTAMINA 3440907",
+      "no": 37
+    },
+    {
+      "alamat": "Jl. Raya Peer Ciwidey, Ciwidey, Kec. Ciwidey, Kabupaten Bandung, Jawa Barat 40973",
+      "id": 38,
+      "latitude": -7.108,
+      "longitude": 107.45438,
+      "nama_spbu": "PERTAMINA 3440908",
+      "no": 38
+    },
+    {
+      "alamat": "Jl. Raya Cibaduyut, Cangkuang Kulon, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40239",
+      "id": 39,
+      "latitude": -6.96803,
+      "longitude": 107.59138,
+      "nama_spbu": "PERTAMINA 3440243",
+      "no": 39
+    },
+    {
+      "alamat": "Jl. Raya Rancaekek - Garut No.184, Nagrog, Kec. Cicalengka, Kabupaten Bandung, Jawa Barat 40395",
+      "id": 40,
+      "latitude": -7.00777,
+      "longitude": 107.8671,
+      "nama_spbu": "PERTAMINA 3440331",
+      "no": 40
+    },
+    {
+      "alamat": "Jl. Rancaekek, Kec. Sindangpakuon, Kabupaten Bandung, Jawa Barat 40394",
+      "id": 41,
+      "latitude": -6.96676,
+      "longitude": 107.82194,
+      "nama_spbu": "PERTAMINA 34440334",
+      "no": 41
+    },
+    {
+      "alamat": "Jl. Ibrahim Adjie No.390, Kb. Kangkung, Kec. Kiaracondong, Kota Bandung, Jawa Barat 40274",
+      "id": 42,
+      "latitude": -6.94091,
+      "longitude": 107.64197,
+      "nama_spbu": "PERTAMINA 3140201",
+      "no": 42
+    },
+    {
+      "alamat": "Jl. Jend. Sudirman, Sukahaji, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40221",
+      "id": 43,
+      "latitude": -6.91863,
+      "longitude": 107.58407,
+      "nama_spbu": "PERTAMINA 3140202",
+      "no": 43
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta, Babakan Penghulu, Kec. Cinambo, Kota Bandung, Jawa Barat 40613",
+      "id": 44,
+      "latitude": -6.93739,
+      "longitude": 107.69397,
+      "nama_spbu": "PERTAMINA 3140601",
+      "no": 44
+    },
+    {
+      "alamat": "Jl. A.H. Nasution No.171, Karang Pamulang, Kec. Mandalajati, Kota Bandung, Jawa Barat 40195",
+      "id": 45,
+      "latitude": -6.9045,
+      "longitude": 107.67349,
+      "nama_spbu": "PERTAMINA 3340101",
+      "no": 45
+    },
+    {
+      "alamat": "Jl. Wastukencana No.16, Tamansari, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40116",
+      "id": 46,
+      "latitude": -6.90438,
+      "longitude": 107.60701,
+      "nama_spbu": "PERTAMINA 3440102",
+      "no": 46
+    },
+    {
+      "alamat": "Jl. Jend. H. Amir Machmud No.60-62, Campaka, Kec. Andir, Kota Bandung, Jawa Barat 40184",
+      "id": 47,
+      "latitude": -6.90275,
+      "longitude": 107.56472,
+      "nama_spbu": "PERTAMINA 3440106",
+      "no": 47
+    },
+    {
+      "alamat": "Jl. A. Yani, Cihapit, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40114",
+      "id": 48,
+      "latitude": -6.91345,
+      "longitude": 107.63383,
+      "nama_spbu": "PERTAMINA 3440110",
+      "no": 48
+    },
+    {
+      "alamat": "Jl. Cipaganti, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161",
+      "id": 49,
+      "latitude": -6.8876,
+      "longitude": 107.60207,
+      "nama_spbu": "PERTAMINA 3440111",
+      "no": 49
+    },
+    {
+      "alamat": "Jl. Pahlawan No.16, Cikutra, Kec. Cibeunying Kidul, Kota Bandung, Jawa Barat 40122",
+      "id": 50,
+      "latitude": -6.89972,
+      "longitude": 107.63432,
+      "nama_spbu": "PERTAMINA 3440114",
+      "no": 50
+    },
+    {
+      "alamat": "Jl. DR. Djunjunan Dalam No.139, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40173",
+      "id": 51,
+      "latitude": -6.89358,
+      "longitude": 107.58593,
+      "nama_spbu": "PERTAMINA 3440116",
+      "no": 51
+    },
+    {
+      "alamat": "Jl. Gn. Batu No.80, Sukaraja, Kec. Cicendo, Kota Bandung, Jawa Barat 40514",
+      "id": 52,
+      "latitude": -6.89157,
+      "longitude": 107.56301,
+      "nama_spbu": "PERTAMINA 3440118",
+      "no": 52
+    },
+    {
+      "alamat": "Jl. Surya Sumantri, Kec. Sukajadi, Kota Bandung, Jawa Barat 40163",
+      "id": 53,
+      "latitude": -6.88278,
+      "longitude": 107.58127,
+      "nama_spbu": "PERTAMINA 3440120",
+      "no": 53
+    },
+    {
+      "alamat": "Jl. Cihampelas No.175, Cipaganti, Kecamatan Coblong, Kota Bandung, Jawa Barat 40131",
+      "id": 54,
+      "latitude": -6.88861,
+      "longitude": 107.60387,
+      "nama_spbu": "PERTAMINA 3440121",
+      "no": 54
+    },
+    {
+      "alamat": "Jl. Ir. H. Juanda, Dago, Kecamatan Coblong, Kota Bandung, Jawa Barat 40134",
+      "id": 55,
+      "latitude": -6.86912,
+      "longitude": 107.62076,
+      "nama_spbu": "PERTAMINA 3440122",
+      "no": 55
+    },
+    {
+      "alamat": "Jl. Dr. Djunjunan No.118, Sukagalih, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162",
+      "id": 56,
+      "latitude": -6.8952,
+      "longitude": 107.58913,
+      "nama_spbu": "PERTAMINA 3440123",
+      "no": 56
+    },
+    {
+      "alamat": "Jl. Dr. Setiabudi No.47, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40141",
+      "id": 57,
+      "latitude": -6.88057,
+      "longitude": 107.59881,
+      "nama_spbu": "PERTAMINA 3440124",
+      "no": 57
+    },
+    {
+      "alamat": "Jl. Dipati Ukur No.53-55, Lebakgede, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132",
+      "id": 58,
+      "latitude": -6.89075,
+      "longitude": 107.61663,
+      "nama_spbu": "PERTAMINA 3440125",
+      "no": 58
+    },
+    {
+      "alamat": "Jl. Rajawali Barat, Garuda, Kec. Andir, Kota Bandung, Jawa Barat 40184",
+      "id": 59,
+      "latitude": -6.91285,
+      "longitude": 107.57464,
+      "nama_spbu": "PERTAMINA 3440126",
+      "no": 59
+    },
+    {
+      "alamat": "Jl. Tamblong No.3, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111",
+      "id": 60,
+      "latitude": -6.91982,
+      "longitude": 107.61203,
+      "nama_spbu": "PERTAMINA 3440127",
+      "no": 60
+    },
+    {
+      "alamat": "Jl. Surapati No.119, Sukaluyu, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40123",
+      "id": 61,
+      "latitude": -6.89922,
+      "longitude": 107.62717,
+      "nama_spbu": "PERTAMINA 3440128",
+      "no": 61
+    },
+    {
+      "alamat": "Jl. Sunda, Merdeka, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40113",
+      "id": 62,
+      "latitude": -6.91653,
+      "longitude": 107.61838,
+      "nama_spbu": "PERTAMINA 3440130",
+      "no": 62
+    },
+    {
+      "alamat": "Jl. Garuda No.92, Garuda, Kec. Andir, Kota Bandung, Jawa Barat 40184",
+      "id": 63,
+      "latitude": -6.90972,
+      "longitude": 107.57822,
+      "nama_spbu": "PERTAMINA 3440131",
+      "no": 63
+    },
+    {
+      "alamat": "Jl. Dr. Setiabudi No.128, Hegarmanah, Kec. Cidadap, Kota Bandung, Jawa Barat 40141",
+      "id": 64,
+      "latitude": -6.87532,
+      "longitude": 107.59692,
+      "nama_spbu": "PERTAMINA 3440132",
+      "no": 64
+    },
+    {
+      "alamat": "Jl. L. L. R.E. Martadinata No.79, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
+      "id": 65,
+      "latitude": -6.9058,
+      "longitude": 107.6186,
+      "nama_spbu": "PERTAMINA 3440133",
+      "no": 65
+    },
+    {
+      "alamat": "Jl. Surya Sumantri No.36, Sukagalih, Kec. Sukajadi, Kota Bandung, Jawa Barat 40164",
+      "id": 66,
+      "latitude": -6.88909,
+      "longitude": 107.58161,
+      "nama_spbu": "PERTAMINA 3440135",
+      "no": 66
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta No.576, Sekejati, Kec. Buahbatu, Kota Bandung, Jawa Barat 40286",
+      "id": 67,
+      "latitude": -6.93962,
+      "longitude": 107.66253,
+      "nama_spbu": "PERTAMINA 3440201",
+      "no": 67
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta No.76, Batununggal, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40266",
+      "id": 68,
+      "latitude": -6.94777,
+      "longitude": 107.63535,
+      "nama_spbu": "PERTAMINA 3440202",
+      "no": 68
+    },
+    {
+      "alamat": "Jl. Terusan Pasirkoja No.340, Babakan, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40222",
+      "id": 69,
+      "latitude": -6.92942,
+      "longitude": 107.57764,
+      "nama_spbu": "PERTAMINA 3440203",
+      "no": 69
+    },
+    {
+      "alamat": "Jl. Peta, Suka Asih, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40231",
+      "id": 70,
+      "latitude": -6.9349,
+      "longitude": 107.59148,
+      "nama_spbu": "PERTAMINA 3440204",
+      "no": 70
+    },
+    {
+      "alamat": "Jl. BKR No.88, Cigereleng, Kec. Regol, Kota Bandung, Jawa Barat 40253",
+      "id": 71,
+      "latitude": -6.93825,
+      "longitude": 107.61678,
+      "nama_spbu": "PERTAMINA 3440206",
+      "no": 71
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta No.801, Babakan Penghulu, Kec. Cinambo, Kota Bandung, Jawa Barat 40294",
+      "id": 72,
+      "latitude": -6.93679,
+      "longitude": 107.69144,
+      "nama_spbu": "PERTAMINA 3440209",
+      "no": 72
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta, Babakan Ciparay, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40223",
+      "id": 73,
+      "latitude": -6.94149,
+      "longitude": 107.58197,
+      "nama_spbu": "PERTAMINA 3440210",
+      "no": 73
+    },
+    {
+      "alamat": "Jl. Ciwastra No.28, Cijaura, Kec. Buahbatu, Kota Bandung, Jawa Barat 40287",
+      "id": 74,
+      "latitude": -6.95268,
+      "longitude": 107.65537,
+      "nama_spbu": "PERTAMINA 3440211",
+      "no": 74
+    },
+    {
+      "alamat": "Jl. Terusan Buah Batu No.218, Kujangsari, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40287",
+      "id": 75,
+      "latitude": -6.96055,
+      "longitude": 107.6387,
+      "nama_spbu": "PERTAMINA 3440212",
+      "no": 75
+    },
+    {
+      "alamat": "Jl. BKR No.78A, Ancol, Kec. Regol, Kota Bandung, Jawa Barat 40253",
+      "id": 76,
+      "latitude": -6.93795,
+      "longitude": 107.61779,
+      "nama_spbu": "PERTAMINA 3440217",
+      "no": 76
+    },
+    {
+      "alamat": "Jl. Martanegara, Kec. Lengkong, Kota Bandung, Jawa Barat 40263",
+      "id": 77,
+      "latitude": -6.93303,
+      "longitude": 107.628,
+      "nama_spbu": "PERTAMINA 3440218",
+      "no": 77
+    },
+    {
+      "alamat": "Jl. Cibaduyut, Cibaduyut Kidul, Kec. Bojongloa Kidul, Kabupaten Bandung, Jawa Barat 40238",
+      "id": 78,
+      "latitude": -6.95955,
+      "longitude": 107.59377,
+      "nama_spbu": "PERTAMINA 3440221",
+      "no": 78
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta No.556, Sekejati, Kec. Buahbatu, Kota Bandung, Jawa Barat 40286",
+      "id": 79,
+      "latitude": -6.943,
+      "longitude": 107.65029,
+      "nama_spbu": "PERTAMINA 3440225",
+      "no": 79
+    },
+    {
+      "alamat": "Jl. Cipamokolan No.9, Cipamokolan, Kec. Rancasari, Kota Bandung, Jawa Barat 40292",
+      "id": 80,
+      "latitude": -6.94031,
+      "longitude": 107.67737,
+      "nama_spbu": "PERTAMINA 3440226",
+      "no": 80
+    },
+    {
+      "alamat": "Jl. Terusan Pasirkoja No.351, Babakan, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40222",
+      "id": 81,
+      "latitude": -6.92939,
+      "longitude": 107.57954,
+      "nama_spbu": "PERTAMINA 3440227",
+      "no": 81
+    },
+    {
+      "alamat": "Jl. Laswi No.61, Cibangkong, Kec. Batununggal, Kota Bandung, Jawa Barat 40273",
+      "id": 82,
+      "latitude": -6.92239,
+      "longitude": 107.63063,
+      "nama_spbu": "PERTAMINA 3440230",
+      "no": 82
+    },
+    {
+      "alamat": "Jl. Sadang Serang No. 18, Sekeloa, Kecamatan Coblong, Kota Bandung, Jawa Barat 40133",
+      "id": 83,
+      "latitude": -6.89113,
+      "longitude": 107.62564,
+      "nama_spbu": "PERTAMINA 3440231",
+      "no": 83
+    },
+    {
+      "alamat": "Jl. Raya Bandung-Garut ByPass Cicalengka, Kec. Cicalengka, Kota Bandung, Jawa Barat 40287",
+      "id": 84,
+      "latitude": -6.96693,
+      "longitude": 107.68136,
+      "nama_spbu": "PERTAMINA 3440232",
+      "no": 84
+    },
+    {
+      "alamat": "Jl. Bojong Raya No 82-85, Kec. Caringin, Bandung Kulon, Bandung City, Jawa Barat 40212",
+      "id": 85,
+      "latitude": -6.92742,
+      "longitude": 107.56278,
+      "nama_spbu": "PERTAMINA 3440233",
+      "no": 85
+    },
+    {
+      "alamat": "Jl. Terusan Jakarta No.142, Antapani Tengah, Kec. Antapani, Kota Bandung, Jawa Barat 40291",
+      "id": 86,
+      "latitude": -6.91365,
+      "longitude": 107.65885,
+      "nama_spbu": "PERTAMINA 3440234",
+      "no": 86
+    },
+    {
+      "alamat": "Jl. Ciwastra No.253, Margasari, Kec. Buahbatu, Kota Bandung, Jawa Barat 40286",
+      "id": 87,
+      "latitude": -6.96015,
+      "longitude": 107.66323,
+      "nama_spbu": "PERTAMINA 3440235",
+      "no": 87
+    },
+    {
+      "alamat": "Jl. Laswi No.136, Samoja, Kec. Batununggal, Kota Bandung, Jawa Barat 40273",
+      "id": 88,
+      "latitude": -6.92336,
+      "longitude": 107.62793,
+      "nama_spbu": "PERTAMINA 3440236",
+      "no": 88
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta No.15, Cibuntu, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40212",
+      "id": 89,
+      "latitude": -6.91952,
+      "longitude": 107.57456,
+      "nama_spbu": "PERTAMINA 3440237",
+      "no": 89
+    },
+    {
+      "alamat": "Jl. Terusan Buah Batu No.55, Batununggal, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40266",
+      "id": 90,
+      "latitude": -6.95222,
+      "longitude": 107.63803,
+      "nama_spbu": "PERTAMINA 3440238",
+      "no": 90
+    },
+    {
+      "alamat": "Jl. Moch. Toha No.359c, Ciseureuh, Kec. Regol, Kota Bandung, Jawa Barat 40255",
+      "id": 91,
+      "latitude": -6.95482,
+      "longitude": 107.61207,
+      "nama_spbu": "PERTAMINA 3440239",
+      "no": 91
+    },
+    {
+      "alamat": "Jl. Raya Derwati, Derwati, Kec. Rancasari, Kota Bandung, Jawa Barat 40292",
+      "id": 92,
+      "latitude": -6.96405,
+      "longitude": 107.67728,
+      "nama_spbu": "PERTAMINA 3440241",
+      "no": 92
+    },
+    {
+      "alamat": "Jl. Raya Kopo No.288, Kopo, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40233",
+      "id": 93,
+      "latitude": -6.94004,
+      "longitude": 107.59286,
+      "nama_spbu": "PERTAMINA 3440242",
+      "no": 93
+    },
+    {
+      "alamat": "Jl. A. H. Nasution, Jatihandap, Mandalajati, Antapani Wetan, Kec. Antapani, Kota Bandung, Jawa Barat 40195",
+      "id": 94,
+      "latitude": -6.90411,
+      "longitude": 107.66506,
+      "nama_spbu": "PERTAMINA 3440244",
+      "no": 94
+    },
+    {
+      "alamat": "Jl. Ibrahim Adjie No. 135, Babakan Sari, Kec. Kiaracondong, Kota Bandung, Jawa Barat 40283",
+      "id": 95,
+      "latitude": -6.91778,
+      "longitude": 107.64463,
+      "nama_spbu": "PERTAMINA 3440247",
+      "no": 95
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta No.86, Wr. Muncang, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40212",
+      "id": 96,
+      "latitude": -6.92665,
+      "longitude": 107.57475,
+      "nama_spbu": "PERTAMINA 3440248",
+      "no": 96
+    },
+    {
+      "alamat": "Jl. A. Yani, Kacapiring, Kec. Batununggal, Kota Bandung, Jawa Barat 40271",
+      "id": 97,
+      "latitude": -6.91231,
+      "longitude": 107.63701,
+      "nama_spbu": "PERTAMINA 3440249",
+      "no": 97
+    },
+    {
+      "alamat": "JL Gedebage Selatan No 170, Rancabalong, Arcamanik, Cisaranten Kidul, Kec. Gedebage, Kota Bandung, Jawa Barat 40295",
+      "id": 98,
+      "latitude": -6.94502,
+      "longitude": 107.68666,
+      "nama_spbu": "PERTAMINA 3440250",
+      "no": 98
+    },
+    {
+      "alamat": "Jl. Soekarno Hatta 491, Cijagra, Kec. Lengkong, Kota Bandung, Jawa Barat 40265",
+      "id": 99,
+      "latitude": -6.94919,
+      "longitude": 107.62581,
+      "nama_spbu": "PERTAMINA 3440253",
+      "no": 99
+    },
+    {
+      "alamat": "Jl. Murni IV, Ciateul, Kec. Regol, Kota Bandung, Jawa Barat 40252",
+      "id": 100,
+      "latitude": -6.93642,
+      "longitude": 107.61053,
+      "nama_spbu": "PERTAMINA 3440254",
+      "no": 100
+    },
+    {
+      "alamat": "Jl. Terusan Pasirkoja No.88, Babakan Tarogong, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40292",
+      "id": 101,
+      "latitude": -6.93582,
+      "longitude": 107.5919,
+      "nama_spbu": "PERTAMINA 3440255",
+      "no": 101
+    },
+    {
+      "alamat": "Jl. Peta No.142-144, Suka Asih, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40233",
+      "id": 102,
+      "latitude": -6.93513,
+      "longitude": 107.59251,
+      "nama_spbu": "PERTAMINA 3440256",
+      "no": 102
+    },
+    {
+      "alamat": "Jl. Ibrahim Adjie No.457, Kb. Kangkung, Kec. Kiaracondong, Kota Bandung, Jawa Barat 40284",
+      "id": 103,
+      "latitude": -6.94297,
+      "longitude": 107.64236,
+      "nama_spbu": "PERTAMINA 3440257",
+      "no": 103
+    },
+    {
+      "alamat": "Jl. Cibolerang, Cigondewah Rahayu, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40215",
+      "id": 104,
+      "latitude": -6.94903,
+      "longitude": 107.56674,
+      "nama_spbu": "PERTAMINA 3440258",
+      "no": 104
+    },
+    {
+      "alamat": "Jl. Jend. Sudirman, Cijerah, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40213",
+      "id": 105,
+      "latitude": -6.91406,
+      "longitude": 107.57084,
+      "nama_spbu": "PERTAMINA 3440259",
+      "no": 105
+    },
+    {
+      "alamat": "Jl. Otto Iskandar Dinata No.469, Pungkur, Kec. Regol, Kota Bandung, Jawa Barat 40242",
+      "id": 106,
+      "latitude": -6.93022,
+      "longitude": 107.60373,
+      "nama_spbu": "PERTAMINA 3440260",
+      "no": 106
+    },
+    {
+      "alamat": "Jl. Raya Cipadung, Cipadung Kulon, Kec. Panyileukan, Kota Bandung, Jawa Barat 40614",
+      "id": 107,
+      "latitude": -6.92602,
+      "longitude": 107.71073,
+      "nama_spbu": "PERTAMINA 3440601",
+      "no": 107
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta No.835 05, Mekar Mulya, Kec. Panyileukan, Kota Bandung, Jawa Barat 40613",
+      "id": 108,
+      "latitude": -6.93616,
+      "longitude": 107.70056,
+      "nama_spbu": "PERTAMINA 3440603",
+      "no": 108
+    },
+    {
+      "alamat": "Jl. Purwakarta No.5, Babakan Surabaya, Kec. Kiaracondong, Kota Bandung, Jawa Barat 40281",
+      "id": 109,
+      "latitude": -6.91337,
+      "longitude": 107.65173,
+      "nama_spbu": "PERTAMINA 3440220",
+      "no": 109
+    },
+    {
+      "alamat": "Jl. Parahyangan Raya No.Kav 1, Kertajaya, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553",
+      "id": 110,
+      "latitude": -6.85607,
+      "longitude": 107.49096,
+      "nama_spbu": "PERTAMINA 3140501",
+      "no": 110
+    },
+    {
+      "alamat": "Jl. Raya Giriasih, Batujajar, Kabupaten Bandung Barat, Jawa Barat 40553",
+      "id": 111,
+      "latitude": -6.89093,
+      "longitude": 107.50337,
+      "nama_spbu": "PERTAMINA 3440229",
+      "no": 111
+    },
+    {
+      "alamat": "Jl. Kolonel Masturi, Sukajaya, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40559",
+      "id": 112,
+      "latitude": -6.80615,
+      "longitude": 107.59617,
+      "nama_spbu": "PERTAMINA 3440318",
+      "no": 112
+    },
+    {
+      "alamat": "Jl. Raya Tangkuban Parahu No.128 A, Cibogo, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40391",
+      "id": 113,
+      "latitude": -6.81164,
+      "longitude": 107.63485,
+      "nama_spbu": "PERTAMINA 3440321",
+      "no": 113
+    },
+    {
+      "alamat": "Jl. Cibogo Sawo, Rajamandala Kulon, Kec. Cipatat, Kabupaten Bandung Barat, Jawa Barat 40554",
+      "id": 114,
+      "latitude": -6.8327,
+      "longitude": 107.35825,
+      "nama_spbu": "PERTAMINA 3440501",
+      "no": 114
+    },
+    {
+      "alamat": "Jl. Raya Padalarang No.514, Padasuka, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat 40526",
+      "id": 115,
+      "latitude": -6.84423,
+      "longitude": 107.48714,
+      "nama_spbu": "PERTAMINA 3440503",
+      "no": 115
+    },
+    {
+      "alamat": "Jl. Cikalong No.359, Ciptagumati, Kec. Cikalong Wetan, Kabupaten Bandung Barat, Jawa Barat 40556",
+      "id": 116,
+      "latitude": -6.74218,
+      "longitude": 107.44155,
+      "nama_spbu": "PERTAMINA 3440504",
+      "no": 116
+    },
+    {
+      "alamat": "Jl. Raya Gadobangkong No.170-173, Cimareme, Ngamprah, Kec. Ngamprah, Kabupaten Bandung Barat, Jawa Barat 40552",
+      "id": 117,
+      "latitude": -6.86332,
+      "longitude": 107.51034,
+      "nama_spbu": "PERTAMINA 3440505",
+      "no": 117
+    },
+    {
+      "alamat": "Jl. Raya Cipatik, Cipatik, Kec. Cihampelas, Kabupaten Bandung Barat, Jawa Barat 40562",
+      "id": 118,
+      "latitude": -6.93597,
+      "longitude": 107.50375,
+      "nama_spbu": "PERTAMINA 3440506",
+      "no": 118
+    },
+    {
+      "alamat": "Jl. Raya Gadobangkong No.67, Gadobangkong, Kec. Ngamprah, Kabupaten Bandung Barat, Jawa Barat 40552",
+      "id": 119,
+      "latitude": -6.86863,
+      "longitude": 107.52152,
+      "nama_spbu": "PERTAMINA 3440507",
+      "no": 119
+    },
+    {
+      "alamat": "Jl. Haji Dasuki, Padalarang, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553",
+      "id": 120,
+      "latitude": -6.83991,
+      "longitude": 107.47809,
+      "nama_spbu": "PERTAMINA 3440508",
+      "no": 120
+    },
+    {
+      "alamat": "Jalur Cikampek - Padalarang No.233, Ciburuy, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553",
+      "id": 121,
+      "latitude": -6.81883,
+      "longitude": 107.4762,
+      "nama_spbu": "PERTAMINA 3440509",
+      "no": 121
+    },
+    {
+      "alamat": "Jl. Cikuda Campaka, Cempakamekar, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553",
+      "id": 122,
+      "latitude": -6.80489,
+      "longitude": 107.45209,
+      "nama_spbu": "PERTAMINA 3440512",
+      "no": 122
+    },
+    {
+      "alamat": "Jl. Raya Caringin No.357, Kertajaya, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553",
+      "id": 123,
+      "latitude": -6.85564,
+      "longitude": 107.4981,
+      "nama_spbu": "PERTAMINA 3440513",
+      "no": 123
+    },
+    {
+      "alamat": "Jl. Raya Cipatat No.110, Citatah, Kec. Cipatat, Kabupaten Bandung Barat, Jawa Barat 40554",
+      "id": 124,
+      "latitude": -6.82823,
+      "longitude": 107.37619,
+      "nama_spbu": "PERTAMINA 3440514",
+      "no": 124
+    },
+    {
+      "alamat": "Jl. Kampung Tagog Munding, Citatah, Kec. Cipatat, Kabupaten Bandung Barat, Jawa Barat 40554",
+      "id": 125,
+      "latitude": -6.83453,
+      "longitude": 107.4131,
+      "nama_spbu": "PERTAMINA 3440523",
+      "no": 125
+    },
+    {
+      "alamat": "Jl. Kp. Manapa, Cililin - Cihampelas, Karangtanjung, Kec. Cililin, Kabupaten Bandung Barat, Jawa Barat 40562",
+      "id": 126,
+      "latitude": -6.94852,
+      "longitude": 107.46714,
+      "nama_spbu": "PERTAMINA 3440525",
+      "no": 126
+    },
+    {
+      "alamat": "Jl. Raya Cililin-Sindangkerta, Sindangkerta, Kabupaten Bandung Barat, Jawa Barat 40563",
+      "id": 127,
+      "latitude": -6.98674,
+      "longitude": 107.41551,
+      "nama_spbu": "PERTAMINA 3440528",
+      "no": 127
+    }
+  ],
+  "shell": [
+    {
+      "alamat": "Jl. Khp Hasan Mustopa No.186, Pasirlayung, Kec. Cibeunying Kidul, Kota Bandung, Jawa Barat 40125",
+      "id": 1,
+      "latitude": -6.90127,
+      "longitude": 107.65048,
+      "nama_spbu": "SHELL PHH Mustofa",
+      "no": 1
+    },
+    {
+      "alamat": "Jl. Jend. Sudirman No.559, Sukahaji, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40221",
+      "id": 2,
+      "latitude": -6.91859,
+      "longitude": 107.58526,
+      "nama_spbu": "SHELL Sudirman",
+      "no": 2
+    },
+    {
+      "alamat": "Jl. Cihampelas No.102 - 104, Tamansari, Kecamatan Coblong, Kota Bandung, Jawa Barat 40131",
+      "id": 3,
+      "latitude": -6.89877,
+      "longitude": 107.60429,
+      "nama_spbu": "SHELL Cihampelas",
+      "no": 3
+    },
+    {
+      "alamat": "Jl. Kebon Kawung No.24, Pasir Kaliki, Kec. Cicendo, Kota Bandung, Jawa Barat 40171",
+      "id": 4,
+      "latitude": -6.91223,
+      "longitude": 107.60179,
+      "nama_spbu": "SHELL Kebon Kawung",
+      "no": 4
+    },
+    {
+      "alamat": "Jl. Panyawangan Raya 6-C-7, Kertajaya, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553",
+      "id": 5,
+      "latitude": -6.85721,
+      "longitude": 107.48779,
+      "nama_spbu": "SHELL Kota Baru Parahyangan",
+      "no": 5
+    },
+    {
+      "alamat": "Jl. Terusan Pasirkoja No.90, Babakan Tarogong, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40232",
+      "id": 6,
+      "latitude": -6.92568,
+      "longitude": 107.59325,
+      "nama_spbu": "SHELL Pasir Koja",
+      "no": 6
+    },
+    {
+      "alamat": "Jl. Dr. Djunjunan No.127, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40173",
+      "id": 7,
+      "latitude": -6.89443,
+      "longitude": 107.58712,
+      "nama_spbu": "SHELL Pasteur",
+      "no": 7
+    },
+    {
+      "alamat": "Jl. Pelajar Pejuang 45 No.125, Turangga, Kec. Lengkong, Kota Bandung, Jawa Barat 40264",
+      "id": 8,
+      "latitude": -6.9362,
+      "longitude": 107.62382,
+      "nama_spbu": "SHELL Pelajar Pejuang",
+      "no": 8
+    },
+    {
+      "alamat": "Jl. Raya Cileunyi, Cileunyi Wetan, Kec. Cileunyi, Kabupaten Sumedang, Jawa Barat 45363",
+      "id": 9,
+      "latitude": -6.9436,
+      "longitude": 107.75655,
+      "nama_spbu": "SHELL Rancaekek",
+      "no": 9
+    },
+    {
+      "alamat": "Jl. Soekarno-Hatta, Kb. Lega, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat 40235",
+      "id": 10,
+      "latitude": -6.94718,
+      "longitude": 107.59915,
+      "nama_spbu": "SHELL Soekarno Hatta",
+      "no": 10
+    },
+    {
+      "alamat": "Jl. Raya Bojongsoang, Cipagalo, Kec. Bojongsoang, Kabupaten Bandung, Jawa Barat 40287",
+      "id": 11,
+      "latitude": -6.96624,
+      "longitude": 107.63743,
+      "nama_spbu": "SHELL Terusan Buah Batu",
+      "no": 11
+    }
+  ],
+  "vivo": [
+    {
+      "alamat": "Jl. Dr. Djunjunan, Sukabungah, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162",
+      "id": 1,
+      "latitude": -6.89628,
+      "longitude": 107.59105,
+      "nama_spbu": "VIVO Pasteur",
+      "no": 1
+    }
+  ]
+}
